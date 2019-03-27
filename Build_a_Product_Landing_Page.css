@@ -1,141 +1,160 @@
 body {
-  font-family: sans-serif;
-  background-color: #eeeeee;
+	font-family: sans-serif;
+	background-color: #eeeeee;
 }
 
 #header {
-  position: fixed;
-  top: 0;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  background-color: #eeeeee;
+	position: fixed;
+	top: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	background-color: #eeeeee;
 }
 
 #header-img {
-  width: 300px;
-  height: 35px;
-  margin-top: 30px; 
+	width: 300px;
+	height: 35px;
+	margin-top: 30px; 
 }
 
 #nav-bar ul {
-  display: flex;
-  list-style-type: none;
-  padding-right: 20px;
+	display: flex;
+	list-style-type: none;
+	padding-right: 20px;
 }
 
 #nav-bar li {
-  padding: 20px;
+	padding: 20px;
 }
 
 .nav-link {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 
 h1 {
-  margin-top: 100px;
-  text-align: center;
-  font-size: 24px;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 24px;
 }
 
 input {
-  display: block;
-  margin: auto;
+	display: block;
+	margin: auto;
 }
 
 #email {
-  width: 250px;
-  padding: 5px;
-  border: 1px solid gray-light
+	width: 250px;
+	padding: 5px;
+	border: 1px solid gray-light
 }
 
 #submit,
 .buttons {
-  margin-top: 20px;
-  background-color: #eac445;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 16px;
-  border-style: none;
-  padding: 5px 25px;
+	margin-top: 20px;
+	background-color: #eac445;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	border-style: none;
+	padding: 5px 25px;
 }
 
 .services {
-  list-style-type: none;
-  margin-top: 100px;
+	list-style-type: none;
+	margin-top: 100px;
 }
 
 .services i {
-  color: orange;
+	color: orange;
 }
 
 .services h2 {
-  margin-left: 120px;
-  margin-top: -50px;
+	margin-left: 120px;
+	margin-top: -50px;
 }
 
 .services p {
-  margin-left: 120px;
-  margin-top: -15px;
-  padding-bottom: 40px;
+	margin-left: 120px;
+	margin-top: -15px;
+	padding-bottom: 40px;
 }
 
 #video {
-  display: block;
-  margin: auto; 
-  max-width: 100%;
+	display: block;
+	margin: auto; 
+	max-width: 100%;
 }
 
 #prices {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
 }
 
 .price-1,
 .price-2,
 .price-3 {
-  border: 1px solid black;
-  border-radius: 2px;
-  margin: 20px;
-  width: 300px;
-  text-align: center;
+	border: 1px solid black;
+	border-radius: 2px;
+	margin: 20px;
+	width: 300px;
+	text-align: center;
 }
 
 h3{
-  padding: 20px;
-  background-color: #ddd;
-  margin-top: 0;
-  font-size: 16px;
+	padding: 20px;
+	background-color: #ddd;
+	margin-top: 0;
+	font-size: 16px;
 }
 
 .price-trombones {
-  list-style-type: none;
-  margin-left: -30px;
+	list-style-type: none;
+	margin-left: -30px;
 }
 
 .price {
-  font-weight: bold;
-  font-size: 24px;
+	font-weight: bold;
+	font-size: 24px;
 }
 
 #services:target {
-  margin-top: -70px;
-  padding-top: 100px;
+	margin-top: -70px;
+	padding-top: 100px;
 }
 
 #video:target {
-  margin-top: -70px;
-  padding-top: 100px;
+	margin-top: -70px;
+	padding-top: 100px;
 }
 
 #video:target {
-  margin-top: -70px;
-  padding-top: 100px;
+	margin-top: -70px;
+	padding-top: 100px;
 }
 
 @media screen and (max-width: 689px) {
+	
+	#header {
+		flex-direction: column;
+	}
+
+	#header-img {
+		display: block;
+		margin: auto;
+		margin-top: 30px;
+	}
+
+	#nav-bar ul {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	#nav-bar li {
+		padding: 8px;
+	}
 }
 
 @media screen and (max-width: 968px) {
