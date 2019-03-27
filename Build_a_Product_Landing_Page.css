@@ -119,3 +119,18 @@ h3{
   font-weight: bold;
   font-size: 24px;
 }
+
+#services:target {
+  margin-top: -70px;
+  padding-top: 100px;
+}
+
+#video:target {
+  margin-top: -70px;
+  padding-top: 100px;
+}
+
+#video:target {
+  margin-top: -70px;
+  padding-top: 100px;
+}
