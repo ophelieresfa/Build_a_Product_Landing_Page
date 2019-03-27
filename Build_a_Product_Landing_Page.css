@@ -86,3 +86,36 @@ input {
   margin: auto; 
   max-width: 100%;
 }
+
+#prices {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.price-1,
+.price-2,
+.price-3 {
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+h3{
+  padding: 20px;
+  background-color: #ddd;
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.price-trombones {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 24px;
+}
