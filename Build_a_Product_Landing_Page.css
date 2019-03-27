@@ -136,7 +136,7 @@ h3{
 }
 
 @media screen and (max-width: 689px) {
-	
+
 	#header {
 		flex-direction: column;
 	}
@@ -154,6 +154,10 @@ h3{
 
 	#nav-bar li {
 		padding: 8px;
+	}
+	
+	h1 {
+		margin-top: 210px;
 	}
 }
 
