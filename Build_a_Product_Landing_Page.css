@@ -134,3 +134,9 @@ h3{
   margin-top: -70px;
   padding-top: 100px;
 }
+
+@media screen and (max-width: 689px) {
+}
+
+@media screen and (max-width: 968px) {
+}
