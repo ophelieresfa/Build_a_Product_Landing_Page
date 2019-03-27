@@ -192,4 +192,15 @@ h3{
 }
 
 @media screen and (max-width: 968px) {
+	
+	#prices {
+		flex-direction: column;
+	}
+
+	.price-1,
+	.price-2,
+	.price-3 {
+		margin:auto;
+		margin-top: 20px;
+	}
 }
