@@ -17,3 +17,18 @@ body {
   height: 35px;
   margin-top: 30px; 
 }
+
+#nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+#nav-bar li {
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
