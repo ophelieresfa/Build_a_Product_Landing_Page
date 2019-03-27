@@ -80,3 +80,9 @@ input {
   margin-top: -15px;
   padding-bottom: 40px;
 }
+
+#video {
+  display: block;
+  margin: auto; 
+  max-width: 100%;
+}
